@@ -1,0 +1,7 @@
+packages:
+  - apps/*
+  - config/*
+  - packages/*
+  - ../wasmCloud/washboard-ui/packages/tsconfig
+  - ../wasmCloud/washboard-ui/packages/lattice-client-core
+  - ../wasmCloud/washboard-ui/packages/lattice-client-react

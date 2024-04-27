@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "declaration": false,
+    "declarationMap": false
+  }
+}

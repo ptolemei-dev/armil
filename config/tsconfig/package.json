@@ -1,0 +1,12 @@
+{
+  "name": "@ptolemei/tsconfig",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rm -rf node_modules .turbo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+  }
+}

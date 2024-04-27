@@ -1,0 +1,27 @@
+{
+  "name": "@ptolemei/eslint-config",
+  "version": "0.1.0",
+  "files": [
+    "./base.js",
+    "./nextjs.js",
+    "./react.js"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules .turbo"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.5.6",
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@ptolemei/tsconfig": "workspace:*",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.15"
+  },
+  "peerDependencies": {
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2"
+  }
+}

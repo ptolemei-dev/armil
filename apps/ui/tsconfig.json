@@ -1,0 +1,6 @@
+{
+  "extends": "@ptolemei/tsconfig/react.json",
+  "compilerOptions": {},
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts", "src/**/*.cjs", "src/**/*.mjs", "src/**/*.js"],
+}

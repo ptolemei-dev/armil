@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "incremental": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "exclude": ["node_modules"]
+}

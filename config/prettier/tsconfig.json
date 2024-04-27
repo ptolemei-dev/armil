@@ -1,0 +1,9 @@
+{
+  "extends": "@vilhonpaja/tsconfig/server-library.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
