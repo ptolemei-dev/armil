@@ -12,8 +12,8 @@ const client = new LatticeClient({
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-
-<LatticeClientProvider client={client}></LatticeClientProvider>
-    <App />
+    <LatticeClientProvider client={client}>
+      <App />
+    </LatticeClientProvider>
   </React.StrictMode>,
 )
